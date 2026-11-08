@@ -1,0 +1,73 @@
+# Python bytecode and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+config.local.py
+
+# Logs and runtime files
+*.log
+logs/
+*.pid
+*.seed
+
+# Test, coverage and type-checker caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.hypothesis/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Generated data and model artifacts
+# Keep source datasets and trained models tracked only if intentionally committed.
+# Uncomment these patterns if your project generates large local files:
+# data/raw/
+# data/processed/
+# models/*.pkl
+# models/*.joblib
+# models/*.h5
+# models/*.keras
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Windows and other OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local databases and temporary exports
+*.sqlite3
+*.db-journal
+*.tmp
+*.temp
